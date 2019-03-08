@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Exorcises 1</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="JavaScript Exorcises 1">
+    <meta name="keywords"    content="FRO, JavaScript, Exorcises, assignment, mediacollege">
+    <meta name="author"      content="Brian Loman, MG1D">
+    <meta name="viewport"    content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"   href="css/rechthoek.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+      <div class="head"><h1>JavaScript Exorcises 1</h1></div>
+      <div id="topnav">
+        <a class="home"        href="home.html">Home</a>
+        <a class="circle"      href="circle.html">Circle</a>
+        <a class="active"      href="rechthoek.html">Rechthoek</a>
+        <a class="temperatuur" href="temperatuur.html">Celsius</a>
+        <a class="kelvin"      href="kelvin.html">Kelvin</a>
+      </div>
+    </div>
+    <div class="main">
+      <div class="text">
+        <h1>Rechthoek</h1>
+        <div class="inhoud">
+          <p><u>Lengte rechthoek:</u></p>
+          <input type="number" id="rechthoekAnswer1" value="0" autofocus>
+          <p><u>Breedte rechthoek:</u></p>
+          <input type="number" id="rechthoekAnswer2" value="0">
+          <p>Oppervlakte:</p>
+          <input type="number" id="oppervlakteAnswer" disabled>
+          <p>Omtrek:</p>
+          <input type="number" id="omtrekAnswer" disabled>
+          <p>Diagonaal:</p>
+          <input type="number" id="diagonaalAnswer" disabled>
+        </div>
+        <button type="button" onclick="berekenRechthoek()">Berekenen &raquo;</button>
+      </div>
+    </div>
+    <div class="footer">
+      Copyright © 2019 - All Rights Reserved - <a href="https://www.ma-web.nl/">Mediacollege Amsterdam</a>
+    </div>
+    <script src="scripts/answers.js"></script>
+  </body>
+</html>

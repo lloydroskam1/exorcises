@@ -1,0 +1,153 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+*:focus{
+  outline: none;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 150px 1fr auto;
+}
+
+ul{
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+button{
+  width: 70%;
+  height: 8%;
+  border-style: none;
+  border-radius: 25px;
+  font-size: 20px;
+  background-color: white;
+  margin-left: 75px;
+  cursor: pointer;
+  box-shadow: 5px 5px;
+  margin-top: 25px;
+}
+
+.header{
+  background-color: white;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 70% 30%;
+  text-align: center;
+}
+
+.header h1{
+  font-size: 45px;
+  padding-top: 20px;
+  color: #9370DB;
+}
+
+.main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px 1fr 1fr 50px;
+}
+
+.text{
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  background-color: #9370DB;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+.text h1{
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer{
+  background-color: #9370DB;
+  text-align: center;
+}
+
+.footer a{
+  text-decoration: none;
+  color: black;
+}
+
+.home{
+  margin-left: 190px;
+  border-left-style: solid;
+  border-left-color: #9370DB;
+}
+
+.circle{
+  border-left-style: solid;
+  border-left-color: #9370DB;
+}
+
+.temperatuur, .kelvin{
+  border-right-style: solid;
+  border-right-color: #9370DB;
+}
+
+.inhoud{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-row-gap: 40px;
+}
+
+.inhoud p{
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.inhoud input{
+  margin-right: 20px;
+  border-radius: 25px;
+  border-style: none;
+  text-align: center;
+  box-shadow: 5px 5px;
+}
+
+#topnav{
+  overflow: hidden;
+  background-color: #e9e9e9;
+  font-family: 'Lato';
+}
+
+#topnav a {
+  float: left;
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  color: black;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#topnav a.active {
+  background-color: #9370DB;
+  color: white;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
