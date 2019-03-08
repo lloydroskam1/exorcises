@@ -1,4 +1,4 @@
-# Rxorcises
+# Exorcises
 Assignment Exorcises
 
 ## Link
