@@ -38,7 +38,7 @@ function berekenRechthoek() {
     var diagonaalTotaal1 = document.getElementById("rechthoekAnswer1").value;
     var diagonaalTotaal2 = document.getElementById("rechthoekAnswer2").value;
     var diagonaalAnswer = document.getElementById("diagonaalAnswer");
-    diagonaalAnswer.value = +diagonaalTotaal1 + +diagonaalTotaal2 + "2";
+    diagonaalAnswer.value = +diagonaalTotaal1 + +diagonaalTotaal2;
   }
 };
 
