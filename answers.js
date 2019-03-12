@@ -1,5 +1,5 @@
 function berekenCircle() {
-  if(document.getElementById("circleAnswer").value == 0){
+  if(document.getElementById("circleAnswer").value == ""){
     alert("Je hebt geen straal ingevuld!");
   }else{
     //Oppervlakte cirkel
@@ -15,11 +15,11 @@ function berekenCircle() {
 };
 
 function berekenRechthoek() {
-  if(document.getElementById("rechthoekAnswer1").value == 0 && document.getElementById("rechthoekAnswer2").value == 0){
+  if(document.getElementById("rechthoekAnswer1").value == "" && document.getElementById("rechthoekAnswer2").value == ""){
     alert("Je hebt geen lengte of breedte ingevuld!");
-  }else if(document.getElementById("rechthoekAnswer1").value == 0){
+  }else if(document.getElementById("rechthoekAnswer1").value == ""){
     alert("Je hebt geen lengte ingevuld!");
-  }else if(document.getElementById("rechthoekAnswer2").value == 0){
+  }else if(document.getElementById("rechthoekAnswer2").value == ""){
     alert("Je hebt geen breedte ingevuld!");
   }else{
     //Oppervlakte rechthoek
@@ -43,7 +43,7 @@ function berekenRechthoek() {
 };
 
 function berekenTemp() {
-  if(document.getElementById("tempAnswer").value == 0){
+  if(document.getElementById("tempAnswer").value == ""){
     alert("Je hebt geen temperatuur ingevuld!");
   }else{
     //Kelvin temperatuur
@@ -58,9 +58,8 @@ function berekenTemp() {
   }
 };
 
-
 function berekenKelvin() {
-  if(document.getElementById("tempAnswer").value == 0){
+  if(document.getElementById("tempAnswer").value == ""){
     alert("Je hebt geen temperatuur ingevuld!");
   }else{
     //Celsius temperatuur
